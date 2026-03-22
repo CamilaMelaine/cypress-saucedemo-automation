@@ -1,21 +1,20 @@
 # Cypress - Automação de Testes E2E (Swag Labs)
 
-Projeto de automação criado para demonstrar testes end-to-end em uma jornada completa de compra — **com Page Object Model (POM)**.
+Projeto completo de automação para portfólio QA Júnior, com **Page Object Model** e **Testes de API**.
 
 ## O que foi automatizado
-- Login com sucesso  
-- Jornada completa de compra (adicionar produto → carrinho → checkout → finalização)  
-- **Page Object Model** (POM) — padrão profissional de organização  
+- Jornada completa de compra (UI) com **Page Object Model (POM)**  
+- Testes de API (GET e POST) com `cy.request()`  
 - Custom Commands  
 - Validações de regras de negócio  
 
 ## Tecnologias
 - Cypress 15.12.0  
 - **Page Object Model**  
+- Testes de API  
 - JavaScript  
-- Vídeos automáticos  
 
-## Como rodar
+## Como rodar localmente
 ```bash
 npm install
 npx cypress run
