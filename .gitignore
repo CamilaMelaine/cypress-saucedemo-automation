@@ -1,0 +1,11 @@
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Node
+node_modules/
+package-lock.json
+
+# Mac
+.DS_Store
