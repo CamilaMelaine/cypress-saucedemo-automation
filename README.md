@@ -1,20 +1,21 @@
 # Cypress - Automação de Testes E2E (Swag Labs)
 
-Projeto completo de automação para portfólio QA Júnior, com **Page Object Model** e **Testes de API**.
+![Cypress Tests](https://github.com/CamilaMelaine/cypress-saucedemo-automation/actions/workflows/ci.yml/badge.svg)
+
+Projeto completo de automação para portfólio QA Júnior, com **Page Object Model**, **Testes de API** e **CI/CD automático**.
 
 ## O que foi automatizado
-- Jornada completa de compra (UI) com **Page Object Model (POM)**  
+- Jornada completa de compra (UI) usando **Page Object Model (POM)**  
 - Testes de API (GET e POST) com `cy.request()`  
-- Custom Commands  
-- Validações de regras de negócio  
+- Custom Commands e validações de regras de negócio  
 
-## Tecnologias
+##  Tecnologias
 - Cypress 15.12.0  
 - **Page Object Model**  
 - Testes de API  
-- JavaScript  
+- GitHub Actions (CI/CD)
 
-## Como rodar localmente
+## Como rodar
 ```bash
 npm install
 npx cypress run
